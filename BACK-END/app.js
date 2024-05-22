@@ -48,7 +48,7 @@ app.delete("/api/producto/:id", async (req, res)=> {
 ///// INICIALIZACIÓN DE BASE DE DATOS Y SERVIDOR//////////////////
 mongoose
   .connect(
-    "mongodb+srv://root:Maquina2018*@cluster0.dyvadcq.mongodb.net/store?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://heiddu:PoniBon13@cluster0.nhqorqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then((_) => {
     console.log("Connected to MongoDB");
